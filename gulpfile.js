@@ -8,6 +8,7 @@ var uglify=require("gulp-uglify");//压缩、混淆js
 var imagemin=require("gulp-imagemin");//压缩图片文件
 var base64=require("gulp-base64");//图片转码
 var inject=require("gulp-inject");//文件路径注入
+var connect=require("gulp-connect");//注释注释
 
 gulp.task("css",function(){
 	gulp.src(["./src/css/sdsb.css","./src/css/jituan.css","./src/css/xinwen.css","./src/css/pinpai.css","./src/css/jgxiao.css","./src/css/shenhuo.css","./src/css/swiper.min.css"])
